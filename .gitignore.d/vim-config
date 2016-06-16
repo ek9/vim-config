@@ -1,0 +1,8 @@
+*
+!/.config
+!/.config/mr
+!/.config/mr/available.d
+!/.config/mr/available.d/vim-config.git
+!/.config/mr/config.d
+!/.config/mr/config.d/vim-config.git
+!/.vimrc

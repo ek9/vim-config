@@ -1,0 +1,18 @@
+## ek9/vim-config - https://github.com/ek9/vim-config
+## vim-config.git
+## Setup ek9/vim-config and dependant repositories
+
+### DEPENDENCIES - cloned via git
+# vim-plug
+[.config/vcsh/repo.d/vim-plug]
+checkout = git clone https://github.com/junegunn/vim-plug &&
+    cd vim-plug &&
+    mkdir -p ~/.vim/autoload &&
+    mkdir -p ~/.local/share/nvim/site/autoload &&
+    cp plug.vim ~/.vim/autoload/ &&
+    cp plug.vim ~/.local/share/nvim/site/autoload
+
+### MAIN REPOSITORY - cloned via vcsh
+# vim-config
+[$HOME/.config/vcsh/repo.d/vim-config.git]
+checkout = vcsh clone https://github.com/ek9/vim-config
