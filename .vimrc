@@ -1,10 +1,19 @@
-"" ek9/vimrc - https://github.com/ek9/vimrc
+"" ek9/vim-config - https://github.com/ek9/vim-config
 "" .vimrc
 
-" Setup Vundle
-filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-filetype plugin indent on
-Bundle 'gmarik/vundle'
+"" Setup plugin system (vim-plug)
+" Specify a directory for plugins
+if has('nvim')
+    call plug#begin('~/.local/share/nvim/plugged')
+else
+    call plug#begin('~/.vim/plugged')
+endif
+
+"" Plugins (vim-plug)
+Plug 'junegunn/vim-plug'
+Plug 'ek9/vim-auto-solarize'
+Plug 'ek9/vimrc'
+
+"" Initialize plugin system (vim-plug)
+call plug#end()
 
