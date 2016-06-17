@@ -30,7 +30,7 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'Firef0x/PKGBUILD.vim', { 'for': 'PKGBUILD' }
 Plug 'tmux-plugins/vim-tmux', { 'for': 'tmux' }
 Plug 'saltstack/salt-vim', { 'for': 'sls' }
-Plug 'mustache/vim-mustache/handlebars', { 'for': 'hbs' }
+Plug 'mustache/vim-mustache-handlebars', { 'for': 'hbs' }
 Plug 'stephpy/vim-yaml', { 'for': ['php', 'yml', 'yaml'] }
 Plug 'tpope/vim-haml', { 'for': ['css', 'scss', 'sass', 'less' ] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss', 'sass', 'less' ] }
