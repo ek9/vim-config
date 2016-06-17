@@ -4,9 +4,9 @@
 
 ### DEPENDENCIES - cloned via git
 # vim-plug
-[.config/vcsh/repo.d/vim-plug]
+[$HOME/.config/vcsh/repo.d/vim-plug]
 checkout = git clone https://github.com/junegunn/vim-plug &&
-    cd vim-plug &&
+    cd ~/.config/vcsh/repo.d/vim-plug &&
     mkdir -p ~/.vim/autoload &&
     mkdir -p ~/.local/share/nvim/site/autoload &&
     cp plug.vim ~/.vim/autoload/ &&

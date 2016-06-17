@@ -10,7 +10,6 @@ else
 endif
 
 "" Plugins (vim-plug)
-Plug 'junegunn/vim-plug'
 Plug 'ek9/vim-auto-solarize'
 Plug 'ek9/vimrc'
 
