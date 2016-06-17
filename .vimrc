@@ -14,7 +14,7 @@ endif
 Plug 'altercation/vim-colors-solarized'
 Plug 'ek9/vim-auto-solarize'
 " Core
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTree'] }
+Plug 'scrooloose/nerdtree'
 Plug 'sjl/gundo.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'editorconfig/editorconfig-vim'
