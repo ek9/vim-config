@@ -2,12 +2,7 @@
 "" .vimrc
 
 "" Setup plugin system (vim-plug)
-" Specify a directory for plugins
-if has('nvim')
-    call plug#begin('~/.local/share/nvim/plugged')
-else
-    call plug#begin('~/.vim/plugged')
-endif
+call plug#begin()
 
 "" Plugins (vim-plug)
 " Themes
