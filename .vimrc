@@ -12,6 +12,7 @@ Plug 'ek9/vim-auto-solarize'
 Plug 'scrooloose/nerdtree'
 Plug 'sjl/gundo.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/syntastic'
 Plug 'myint/syntastic-extras'
@@ -20,6 +21,7 @@ Plug 'tpope/vim-dotenv'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'vim-airline/vim-airline'
 Plug 'tmux-plugins/vim-tmux-focus-events'
+Plug 'godlygeek/tabular'
 
 " Filetype specific
 Plug 'Firef0x/PKGBUILD.vim', { 'for': 'PKGBUILD' }
