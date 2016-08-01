@@ -26,6 +26,7 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'godlygeek/tabular'
 Plug 'farmergreg/vim-lastplace'
 Plug 'vim-scripts/Align'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Filetype specific
 Plug 'Firef0x/PKGBUILD.vim', { 'for': 'PKGBUILD' }
