@@ -10,10 +10,10 @@ checkout = git clone https://github.com/junegunn/vim-plug &&
     mkdir -p ~/.vim/autoload &&
     mkdir -p ~/.local/share/nvim/site/autoload &&
     cp plug.vim ~/.vim/autoload/ &&
-    cp plug.vim ~/.local/share/nvim/site/autoload
+    cp plug.vim ~/.local/share/nvim/site/autoload &&
+    vim -C "PlugInstall"
 
 ### MAIN REPOSITORY - cloned via vcsh
 # vim-config
 [$HOME/.config/vcsh/repo.d/vim-config.git]
-checkout = vcsh clone https://github.com/ek9/vim-config &&
-    vim -C "PlugInstall"
+checkout = vcsh clone https://github.com/ek9/vim-config
