@@ -4,6 +4,8 @@ vim-config
 [vim-config][0] is a personal dotfiles repository for [vim][2]. It is
 compatible with [vcsh-dotfiles][1].
 
+Part of [ek9/dotfiles][10] collection.
+
 ## Install
 
 This repository is compatible with [vcsh-dotfiles][1]. You are advised to have
@@ -34,4 +36,4 @@ Licensed under [MIT License](LICENSE).
 [2]: http://www.vim.org
 [3]: https://github.com/ek9/vimrc
 [4]: https://github.com/junegunn/vim-plug
-
+[10]: https://github.com/ek9/dotfiles
