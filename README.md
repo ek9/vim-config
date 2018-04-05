@@ -6,6 +6,8 @@ compatible with [vcsh-dotfiles][1].
 
 Part of [ek9/dotfiles][10] collection.
 
+![vim-config](https://i.imgur.com/QOcYlUh.png)
+
 ## Requirements
 
 - [vcsh-dotfiles][1]
