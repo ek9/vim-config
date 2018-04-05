@@ -5,4 +5,7 @@
 !/.config/mr/available.d/vim-config.git
 !/.config/mr/config.d
 !/.config/mr/config.d/vim-config.git
+!/.config/nvim
+!/.config/nvim/init.vim
 !/.vimrc
+
